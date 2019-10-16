@@ -40,9 +40,14 @@ nav.navbar {
   color: #32b5e9!important;
 }
 
+.img-width {
+  width: 100%;
+  height: auto;
+}
 
-
-
+#appEvidence {
+  margin-bottom: 2rem;
+}
 
 /*--- Landing Page --*/
 .carousel-inner img {
