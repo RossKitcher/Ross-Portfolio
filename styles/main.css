@@ -7,13 +7,20 @@ body {
   font-size: 16px;
 }
 
+#backg {
+  display: block;
+  width: 100%;
+}
+
 .offset:before {
   display:block;
   height:4rem;
   content:"";
   margin-top: -4rem;
 }
-
+.no-margin {
+  margin-bottom: 0;
+}
 /*--- Navigation --*/
 
 .navbar {
@@ -50,6 +57,9 @@ nav.navbar {
 }
 
 /*--- Landing Page --*/
+div.carousel.landing {
+  height: auto;
+}
 .carousel-inner img {
     width: 100%;
     height: auto;
@@ -57,6 +67,7 @@ nav.navbar {
   }
   .landing {
     z-index: 10!important;
+    
   }
   .landing .carousel-caption {
     position: absolute;
@@ -220,10 +231,10 @@ footer h4 {
 /*--- On Extra Large Break --*/
 @media (max-width: 1200px) {
   .carousel-caption h1 {
-    font-size: 440%;
+    font-size: 440%!important;
   }
   .carousel-caption h3 {
-    font-size: 180%;
+    font-size: 180%!important;
   }
   .btn-outline-secondary {
     padding: .3rem 2rem!important;
@@ -234,10 +245,10 @@ footer h4 {
 @media (max-width: 992px) {
 
   .carousel-caption h1 {
-    font-size: 400%;
+    font-size: 400%!important;
   }
   .carousel-caption h3 {
-    font-size: 150%;
+    font-size: 150%!important;
   }
   .btn-outline-secondary {
     padding: .3rem 2rem!important;
@@ -259,10 +270,10 @@ footer h4 {
      font-size: 4rem!important;
    }
   .carousel-caption h1 {
-    font-size: 350%;
+    font-size: 350%!important;
   }
   .carousel-caption h3 {
-    font-size: 130%;
+    font-size: 160%!important;
   }
   .btn-outline-secondary {
     padding: .3rem 1.7rem!important;
@@ -287,10 +298,10 @@ footer h4 {
 /*--- On Small Break --*/
 @media (max-width: 576px) {
   .carousel-caption h1 {
-    font-size: 300%;
+    font-size: 300%!important;
   }
   .carousel-caption h3 {
-    font-size: 110%;
+    font-size: 140%!important;
   }
   .btn-outline-secondary {
     padding: .2rem 1rem!important;

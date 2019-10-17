@@ -1,12 +1,19 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>My Portfolio</title>
+        <meta name="keywords" content="HTML, CSS, Bootstrap, Ross Kitcher, Portfolio, CV">
+        <meta name="description" content="Ross Kitcher's portfolio">
+        <meta name="author" content="Ross Kitcher">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Ross' Portfolio</title>
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="styles/fixed.css">
 
-        <link rel="shortcut icon" href="">
+        <link rel="shortcut icon" href="#">
     </head>
+
     <body data-spy="scroll" data-target="#navbarResponsive">
 
         <!-- Start of home section -->
@@ -53,11 +60,11 @@
             <div class="carousel landing">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/background2.png">
+                    <img id="backg" src="img/background2.png" alt="Background Image">
                     <div class="carousel-caption">
                         <h1 class="display-2">Welcome</h1>
                         <h3>To Ross' CV</h3>
-                        <a href="#about"><button type="button" class="btn btn-outline-secondary btn-lg">Get Started</button></a>
+                        <a href="#about" class="btn btn-outline-secondary btn-lg">Get Started</a>
                     </div>
                 </div>
             </div>
@@ -73,9 +80,12 @@
 
         <div class="notice">
             <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <p class="lead">This website has been created using HTML5, CSS3, and Bootstrap 4. It has been hosted using a Raspberrry Pi 3.</p>
+                <div class="row text-center">
+                    <div class="col-8">
+                        <p class="lead no-margin">This website has been created using HTML5, CSS3, and Bootstrap 4.</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="#" class="btn btn-info">Source Code</a>
                     </div>
 
                 </div>
@@ -92,7 +102,7 @@
                         <h1 class="display-2 text-center header header-responsive">About Me</h1>
                         <hr class="my-break">
                         <p>My name's Ross and I'm 19 years old. I have a keen interest in programming and wish to pursue a career in web-development.</p>
-                        <p>I'm extremely an extremely motivated individual who loves to learn and expand my knowledge. Additionally, I'm a sociable and confident individual capable of working and engaging with all age groups both on an individual basis or as part of a team.</p>
+                        <p>I'm an extremely motivated individual who loves to learn and expand my knowledge. Additionally, I'm a   sociable and confident person capable of working and engaging with all age groups both on an individual basis or as part of a team.</p>
                         <p>In my spare time when I'm not in the gym, playing rugby or socialising with friends, I'm programming. I enjoy all aspects of coding but in the future I would love to specialise in front-end web development.</p>
                         <hr class="my-break">
                     </div>
@@ -227,22 +237,31 @@
                 <div class="collapse" id="furtherQualifications">
                     <div class="jumbotron">
                     <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-4">
                         <p class="lead">Computer Science:</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-4">
+                            <p class="lead">A Level</p>
+                        </div>
+                    <div class="col-4">
                         <p>B</p>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-4">
                         <p class="lead">Psychology:</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-4">
+                            <p class="lead">A Level</p>
+                        </div>
+                    <div class="col-4">
                         <p>B</p>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-4">
                         <p class="lead">Maths Statistics:</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-4">
+                            <p class="lead">A Level</p>
+                        </div>
+                    <div class="col-4">
                         <p>C</p>
                     </div>
                     </div>
@@ -268,32 +287,106 @@
                     <div class="collapse" id="higherQualifications">
                         <div class="jumbotron">
                         <div class="row">
-                        <div class="col-md-8">
-                            <p class="lead">Computer Science:</p>
+                        <div class="col-4">
+                            <p class="lead">Computing:</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-4">
+                            <p class="lead">GCSE</p>
+                        </div>
+
+                        <div class="col-4">
+                            <p>A</p>
+                        </div>
+                        <div class="col-4">
+                            <p class="lead">Information Technology:</p>
+                        </div>
+                        <div class="col-4">
+                            <p class="lead">GCSE</p>
+                        </div>
+
+                        <div class="col-4">
+                            <p>A</p>
+                        </div>
+                        <div class="col-4">
+                            <p class="lead">Mathematics:</p>
+                        </div>
+                        <div class="col-4">
+                                <p class="lead">GCSE</p>
+                            </div>
+                        <div class="col-4">
+                            <p>A</p>
+                        </div>
+                        <div class="col-4">
+                            <p class="lead">English Language:</p>
+                        </div>
+                        <div class="col-4">
+                                <p class="lead">GCSE</p>
+                            </div>
+                        <div class="col-4">
+                            <p>A</p>
+                        </div>
+                        <div class="col-4">
+                            <p class="lead">Economics:</p>
+                        </div>
+                        <div class="col-4">
+                                <p class="lead">GCSE</p>
+                            </div>
+                        <div class="col-4">
                             <p>B</p>
                         </div>
-                        <div class="col-md-8">
-                            <p class="lead">Psychology:</p>
+                        <div class="col-4">
+                            <p class="lead">Science:</p>
                         </div>
-                        <div class="col-md-4">
-                            <p>B</p>
+                        <div class="col-4">
+                                <p class="lead">GCSE</p>
+                            </div>
+                        <div class="col-4">
+                            <p>C</p>
                         </div>
-                        <div class="col-md-8">
-                            <p class="lead">Maths Statistics:</p>
+                        <div class="col-4">
+                            <p class="lead">Additional Science:</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-4">
+                            <p class="lead">GCSE</p>
+                        </div>
+                        <div class="col-4">
+                            <p>C</p>
+                        </div>
+                        <div class="col-4">
+                            <p class="lead">Religious Studies:</p>
+                        </div>
+                        <div class="col-4">
+                                <p class="lead">GCSE</p>
+                            </div>
+                        <div class="col-4">
+                            <p>C</p>
+                        </div>
+                        <div class="col-4">
+                            <p class="lead">Physical Education:</p>
+                        </div>
+                        <div class="col-4">
+                                <p class="lead">GCSE</p>
+                            </div>
+                        <div class="col-4">
+                            <p>C</p>
+                        </div>
+                        <div class="col-4">
+                            <p class="lead">English Literature:</p>
+                        </div>
+                        <div class="col-4">
+                                <p class="lead">GCSE</p>
+                            </div>
+                        <div class="col-4">
                             <p>C</p>
                         </div>
                         </div>
                         </div>
-                    </div>
                 </div>
-                
             </div>
-
+                
         </div>
+
+        
         <!-- End of education section-->
 
         <!-- Start of Experience section -->
@@ -373,8 +466,9 @@
                         <p>My applciation linked to a mySQL database that contained a huge number of food items and their corresponding nutritional information.</p>
                         <p><em>All technical aspects mentioned above were self-taught and coded over the course of ~4 months.</em></p>
                         <div class="text-center">
-                        <button type="button" class="btn btn-outline-dark btn-lg" data-toggle="collapse" data-target="#appEvidence">Open in Github</button>
                         <button type="button" class="btn btn-outline-dark btn-lg" data-toggle="collapse" data-target="#appEvidence">Show Evidence</button>
+
+                        <a class="btn btn-success btn-lg" href="https://github.com/RossKitcher/CalorieTracker2.0" target="_blank">Open in Github</a>
                     </div>
                 </div>
                     
@@ -383,38 +477,38 @@
                     <div class="jumbotron">
                     <div class="row">
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                        <img class="img-width" src="img/app5.jpg">
+                        <img class="img-width" src="img/app5.jpg" alt="Homepage screenshot">
                         <p>- Homepage</p>
                         
                     </div>
                     <div class="col-xl-3 col-lg-3  col-md-6 col-sm-6">
-                        <img class="img-width" src="img/app4.jpg">
+                        <img class="img-width" src="img/app4.jpg" alt="Barcode page screenshot">
                         <p>- Scan a barcode</p>
                         
                     </div>
                     <div class=" col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                        <img class="img-width" src="img/app6.jpg">
+                        <img class="img-width" src="img/app6.jpg" alt="Search page screenshot">
                         <p>- Search for a food item.</p>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                        <img class="img-width" src="img/app2.jpg">
+                        <img class="img-width" src="img/app2.jpg" alt="Nutritional info screenshot">
                         <p>- Nutritional Information</p>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                        <img class="img-width" src="img/app3.jpg">
+                        <img class="img-width" src="img/app3.jpg" alt="Navigation menu screenshot">
                         <p>- Navigation Menu</p>
                             
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                        <img class="img-width" src="img/app8.jpg">
+                        <img class="img-width" src="img/app8.jpg" alt="History page screenshot">
                         <p>- History</p>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                        <img class="img-width" src="img/app7.jpg">
+                        <img class="img-width" src="img/app7.jpg" alt="Settings page screenshot">
                         <p>- Settings</p>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                        <img class="img-width" src="img/app1.jpg">
+                        <img class="img-width" src="img/app1.jpg" alt="Calorie Calcualtor page screenshot">
                         <p>- Calorie Calculator</p>
                     </div>
                    
@@ -425,6 +519,7 @@
                 </div>
 
             </div>
+        </div>
         </div>
         <!-- End of Experience section-->
 
@@ -596,10 +691,10 @@
                         <hr>
                     </div>
                     <div class="col-md-6">
-                        <img class="half-col-img" src="img/rugby2.png">
+                        <img class="half-col-img" src="img/rugby2.png" alt="Rugby Image">
                     </div>
                     <div class="col-md-6">
-                        <img class="half-col-img" src="img/gym.png">
+                        <img class="half-col-img" src="img/gym.png" alt="Gym Image">
                     </div>
                     <div class="col-md-6">
                         <hr>
@@ -616,37 +711,37 @@
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src="img/brussels.jpg" class="d-block w-100" alt="">
-                                <div class="carousel-caption d-none d-md-block">
+                                <img src="img/brussels.jpg" class="d-block w-100" alt="Burssels image">
+                                <div class="carousel-caption">
                                     <h2 class="display-2">Brussels</h2>
                                 </div>
                                 </div>
                                 <div class="carousel-item">
-                                <img src="img/budapest.jpg" class="d-block w-100" alt="">
+                                <img src="img/budapest.jpg" class="d-block w-100" alt="Budapest Image">
                                 <div class="carousel-caption">
                                         <h2 class="display-2">Budapest</h2>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                <img src="img/munich.jpg" class="d-block w-100" alt="">
+                                <img src="img/munich.jpg" class="d-block w-100" alt="Munich Image">
                                 <div class="carousel-caption">
                                         <h2 class="display-2">Munich</h2>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/paris.jpg" class="d-block w-100" alt="">
+                                    <img src="img/paris.jpg" class="d-block w-100" alt="Paris Image">
                                     <div class="carousel-caption">
                                             <h2 class="display-2">Paris</h2>
                                         </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/berne.jpg" class="d-block w-100" alt="">
+                                    <img src="img/berne.jpg" class="d-block w-100" alt="Berne Image">
                                     <div class="carousel-caption">
                                             <h2 class="display-2">Berne</h2>
                                         </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/amsterdam.jpg" class="d-block w-100" alt="">
+                                    <img src="img/amsterdam.jpg" class="d-block w-100" alt="Amsterdam Image">
                                     <div class="carousel-caption">
                                             <h2 class="display-2">Amsterdam</h2>
                                         </div>
