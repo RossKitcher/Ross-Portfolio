@@ -18,11 +18,14 @@ body {
   content:"";
   margin-top: -4rem;
 }
+
 .no-margin {
   margin-bottom: 0;
 }
 /*--- Navigation --*/
-
+.btn-info {
+  border: 2px solid #000!important;
+}
 .navbar {
   text-transform: uppercase;
   font-weight: 700;
@@ -322,5 +325,40 @@ footer h4 {
 @media (max-width: 575px) {
   .header-responsive {
     font-size: 2.5rem;
+  }
+}
+
+/*--- On Extra Small Break --*/
+@media (max-width: 421px) {
+  .navbar .navbar-brand {
+    font-size: 1rem;
+  }
+  .carousel-caption h1 {
+    font-size: 150%!important;
+  }
+  .carousel-caption h3 {
+    font-size: 100%!important;
+    margin-bottom: 0;
+  }
+  .btn-outline-secondary {
+    
+    padding: .1rem .6rem!important;
+    font-size: .9rem!important;
+  }
+  .notice p {
+    font-size: 1rem;
+  }
+  .header {
+    font-size: 2rem!important;
+  }
+  .btn {
+    margin-bottom: 1rem!important;
+  }
+  .carousel-caption h2{
+    font-size: 1.2rem;
+
+  }
+  .btn-info {
+    font-size: .8rem!important;
   }
 }
