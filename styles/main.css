@@ -188,6 +188,7 @@ figure {
   height:auto;
   max-width: 100%;
   box-shadow: 10px 10px 5px grey;
+  padding: 0!important;
 }
 
 .carousel-caption {
